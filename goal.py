@@ -13,7 +13,7 @@ class G:
 
         return self.text + end
 
-g = lambda: G()
+g = lambda arg = None: G() if not(arg) else 'gal'
 
 if __name__ == '__main__':
     print(g()('al'))
